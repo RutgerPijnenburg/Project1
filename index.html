@@ -4,12 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rutger Pijnenburg</title>
-    <link rel="stylesheet" href="/Portfolio2/Project1/Styles/General.css" />
+    <link
+      rel="stylesheet"
+      href="/Project1/Styles/General.css"
+    />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- <script>
+      let frame = 1;
+      let MouseDown = false;
+
+      addEventListener("mousemove", (event) => {
+        // if (MouseDown) {
+        mouseX = event.clientX;
+        mouseY = event.clientY;
+        // mouseY = event.clientY;
+        frame = Math.round((mouseX / window.innerWidth) * 89);
+        if (frame < 1) {
+          frame = 1;
+        }
+
+        document.getElementById(
+          "js-Hero-Image"
+        ).src = `/CreativeElectronics/Images/CreativeElectronics/Table (${frame}).jpg`;
+        // }
+      });
+    </script> -->
   </head>
   <body>
     <div class="Navigation" id="Navigation">
@@ -41,9 +65,64 @@
       </div>
       <div class="Navigation-Element">
         <a href="mailto:r.a.pijnenburg@student.tue.nl"
-          ><button class="Hero-Button">Contact Me</button></a
+          ><button class="Hero-Button">Mail Me</button></a
         >
       </div>
     </div>
+    <section>
+      <div class="Column">
+        <p class="Title">Project 1: Memoria</p>
+        <p class="Text">
+          Project 1 was the biggest project I have ever been a part in, in this
+          project I got to work on various areas, while making a fun project.
+          One of the areas I worked in was technology and realization, as I
+          worked on the code and mechanics to make the prototypes be
+          interactable, I also worked on user and society IS THIS CORRECT? As we
+          worked together with a therapist to get closer to our target group. I
+          also worked on design research, and lastly professional skills, as I
+          worked on both communication and report writing. Before going into the
+          course, I had set a couple of goals, the first of which was to work on
+          my communication skill, I did this by pushing my comfort zone and
+          saying my opinion more as well as explain my thoughts and methods. My
+          second goal was to work more with Blender, and I did get some chances
+          to work on it, however I did not challenge myself enough and thus did
+          not learn that many new things, so for next time I will push myself
+          more. My third goal was to work more with prototyping, and I got a
+          really good opportunity, the quick and dirty prototyping workshop,
+          which showed me other ways of making prototypes, prototypes that are
+          more low fidelity. Some things went less well in our team, for example
+          I found it frustrating how people kept getting late, as I might as
+          well come 15 minutes after the time we agreed on, since that was when
+          people started coming, so for next time I will propose a system one of
+          the other groups used, where people that are late get a strike and
+          when you have x strikes you must do something. On the other side, a
+          lot went well, first of all the atmosphere was great, it made
+          communication a lot easier, and although I would love to take this
+          along to next projects, I think it us fundamental, with the reason
+          probably being the willingness to listen.
+        </p>
+      </div>
+      <!-- <img
+        id="js-Hero-Image"
+        draggable="false"
+        src="/CreativeElectronics/Images/CreativeElectronics/Table (1).jpg"
+        alt=""
+      /> -->
+      <video
+        class="Video"
+        src="/Project1/Images/video.mp4"
+        loop
+        autoplay
+      ></video>
+      <div class="CaptionBox">
+        <!-- <p class="Caption"><nobr>drag to rotate</nobr></p> -->
+        <p class="Caption2">
+          <nobr>This is a render of the final result</nobr>
+        </p>
+      </div>
+    </section>
+    <script>
+      // document.querySelector("video").playbackRate = 0;
+    </script>
   </body>
 </html>
